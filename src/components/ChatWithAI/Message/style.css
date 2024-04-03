@@ -1,0 +1,22 @@
+.message-container{
+    width: 90%;
+    background-color: rgb(192, 196, 196);
+    margin: 6px;
+    padding :4px ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    word-wrap: break-word;
+
+}
+.message-sender{
+    color: rgb(84, 97, 97);
+
+}
+.message-text{
+    margin-inline-start: 10px;
+    color: rgb(75, 75, 75);
+}
+.users-message{
+    margin-left: auto;
+    background-color: rgb(157, 223, 223);
+}

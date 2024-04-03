@@ -1,0 +1,14 @@
+.person-img {
+  width: clamp(350px, 55vw, 600px);
+  border-radius: 10px;
+}
+
+.slider {
+  display: block;
+  width: 95%;
+  height: 100%;
+  background-color: rgb(74 107 197 / 14%);
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}

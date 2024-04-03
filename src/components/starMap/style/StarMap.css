@@ -1,0 +1,7 @@
+.scrol-area {
+  position: fixed;
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}

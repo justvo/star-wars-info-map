@@ -1,0 +1,62 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  gap: 5px;
+  position: absolute;
+  z-index: 0;
+
+  height: 3000px;
+  width: 3000px;
+}
+
+.grid-row {
+  display: grid;
+  place-items: center;
+}
+
+.grid-cell {
+  background-size: cover;
+  border-radius: 180px;
+  background-position: center;
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.name-of-planet {
+  font-family: "Russo One", sans-serif;
+  font-size: 17px;
+  opacity: 0;
+  text-shadow: 0px 0px 3px rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  user-select: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.grid-cell:hover .name-of-planet {
+  opacity: 1;
+  transform: scale(2);
+}
+@media screen and (max-width: 600px) {
+  .name-of-planet {
+    transition: none;
+    opacity: 1;
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(250%);
+    pointer-events: none;
+  }
+
+  .grid-cell:hover .name-of-planet {
+    transform: translateY(250%);
+    opacity: 1;
+    pointer-events: none;
+  }
+}
