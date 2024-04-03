@@ -16,5 +16,5 @@
 - **Firebase Store**: For data storage
 - **Eden AI**: Integration with Eden AI to provide artificial intelligence and help users find information.
 
-##Preview
+## Preview
 To access the live version of the application, please visit [Star Wars Info Map](https://star-wars-info-map.netlify.app).
