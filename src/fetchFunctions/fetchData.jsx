@@ -16,7 +16,7 @@ export const fetchData = async (
 
   if (!currItem) {
     currItem = await mainFetch(
-      `https://swapi.info/api/${itemType}/${itemId}`,
+      `https://swapi.dev/api/${itemType}/${itemId}`,
       dispatch,
       itemType == "people" ? "residents" : "films"
     );

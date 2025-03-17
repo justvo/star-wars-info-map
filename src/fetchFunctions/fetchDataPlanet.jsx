@@ -12,7 +12,7 @@ export const fetchDataPlanet = async (
   let currPlanet = planets.find((planet) => planet.id == planetId);
   if (!currPlanet) {
     currPlanet = await mainFetch(
-      `https://swapi.info/api/planets/${planetId}`,
+      `https://swapi.dev/api/planets/${planetId}`,
       dispatch,
       "planets"
     );
