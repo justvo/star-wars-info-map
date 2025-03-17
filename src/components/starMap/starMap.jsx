@@ -20,7 +20,7 @@ const StarMap = () => {
     const fetchData = async () =>{
       if (!isLoaded) {
 
-        const data = await mainFetch("https://swapi.info/api/planets/", dispatch, "planets");
+        const data = await mainFetch("https://swapi.dev/api/planets/", dispatch, "planets");
         setIsLoaded(true);
         return data;
       }
